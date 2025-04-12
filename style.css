@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;         /* >for  virtically | center< */
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+    opacity: 0.5;
+
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover; 
+    border-radius: 50%;     /* >sized to maintain its aspects ratio of images< */ 
+ 
+ }
+ .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-bord {
+    display: flex;                           /* for bring items in same line  */
+    justify-content: center;                 /* for bring itmes in center     */
+    text-align: center;                      /* for doing items vertically align  */
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color:#081b31 ;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;      /*for hilight only content area not all area after display inline we can't margin dosen't work */ 
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+
+.madeby{
+    background-color: #0f1111;
+    color: white;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 14.2%;
+}
